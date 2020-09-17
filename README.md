@@ -1,4 +1,4 @@
-##### MVP Wrap Library
+### MVP Wrap Library
 [![](https://jitpack.io/v/d-samoilov-nlt/mvpWrapLibrary.svg)](https://jitpack.io/#d-samoilov-nlt/mvpWrapLibrary)
 
 Library to simplify working with multythreading in android project based on MVP arch pattern. 
