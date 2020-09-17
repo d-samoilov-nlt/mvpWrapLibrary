@@ -1,0 +1,5 @@
+include ':mvpWrapLib'
+include ':mvpThreadWrapLibrary'
+include ':MvpThreadWrapLibrary'
+include ':app'
+rootProject.name = "Optimisation"
