@@ -1,6 +1,5 @@
 package com.appsx.mvpWrapSample.provider
 
-import android.content.Context
 import com.appsx.mvpWrapSample.common.AppFunctionStackBuilder
 
 class AppFunctionStackProvider {
@@ -8,11 +7,11 @@ class AppFunctionStackProvider {
     companion object {
         private var functionBuilder: AppFunctionStackBuilder? = null
 
-        fun get(applicationContext: Context): AppFunctionStackBuilder {
+        fun get(): AppFunctionStackBuilder {
             if (functionBuilder == null) {
                 synchronized(this) {
                     if (functionBuilder == null) {
-                        functionBuilder = AppFunctionStackBuilder(applicationContext)
+                        functionBuilder = AppFunctionStackBuilder()
                     }
                 }
             }
